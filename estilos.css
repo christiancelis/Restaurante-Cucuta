@@ -1,0 +1,328 @@
+/* body*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: linear-gradient(to bottom,  yellow,black);
+}
+
+/* Menu de la pagina*/
+.header {
+	padding-left: 40px;
+	padding-right: 40px;
+    background-color: white;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    right: 0;
+    height: 40px;
+}
+
+.header a {
+	font-family: 'Karla', sans-serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.logo {
+	padding-top: 3px;
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+
+.header2{
+	position: relative;
+	background: none;
+	padding-top: 50px;
+}
+
+.navigation li:hover{
+	border:0px;
+	border-bottom: 3px;
+	border-bottom-color: yellow;
+	border-style: solid;
+}
+
+/* Contenido Pagina principal */
+
+main{
+	height: 660px;
+}
+
+.principal{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.principal h1{
+	padding-top: 98px;
+	font-size: 70px;
+	font-family: 'Hind', sans-serif;
+	color: black;
+}
+
+.principal p{
+	font-family: 'Karla', sans-serif;
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+.principal button{
+	margin-top: 20px;
+	font-family: 'Hind Siliguri', sans-serif;
+	height: 40px;
+	width: 200px;
+	background-color: #EFB917;
+	border-radius: 20px;
+	border:0px;
+	font-size: 15px;
+}
+
+.sombra{
+	width: 100%;
+	height: 670px;
+	opacity: 0.67;
+	background-color: black;
+	position: absolute;
+}
+
+video{
+	padding-left: 50px;
+	width: 1500px;
+	height: 667px;
+}
+
+.titulo{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Hind', sans-serif;
+	color:  #EFB917;
+}
+
+.contenido{
+	font-size:20px;
+	font-family: 'Karla', sans-serif;
+	color: white;
+}
+
+
+/* seccion de integrantes*/
+
+.contenido-img{
+	width: 500px;
+	height: 600px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 55px;
+	padding-bottom: 200px;
+}
+
+.contenido-img p{
+	color: black;
+}
+
+.circulo{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+/* Mapa pagina principal*/
+.mapa{
+	width: 1523px;
+	height: 300px;
+	margin:auto;
+
+}
+
+.map{
+	border: solid yellow 3px;
+}
+
+/* Duistribucion de Secciones Pagina Principal*/
+.pagina{
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-top: 130px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+/* pie de pagina recuadro del home*/
+
+footer{
+	background-color: white;
+	padding-top: 15px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+	letter-spacing: 4px;
+	font-size: 10px;
+}
+
+/* pie de pagina aplicado a cada Pestaña*/
+
+.footer2{
+	background-color: black;
+	width: 100%;
+	height: 250px;
+	box-shadow: 0px 5px 10px black;
+}
+
+.des-footer{
+	color: white;
+	margin-right: 100px;
+	width: 250px;
+	height: 120px;
+
+}
+
+.des-footer h2{
+	padding-bottom: 10px;
+}
+.des-footer p{
+	padding-top: 5px;
+	text-align: justify-all;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: grey;
+}
+
+.servicio{
+	margin-right: 100px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.servicio p{
+	padding-bottom: 5px;
+	font-size: 10px;
+	font-family: sans-serif;
+	text-align: left;
+	color: grey;
+}
+
+.servicio h2{
+	padding-bottom: 20px;
+
+}
+
+.conten{
+	display:inline-flex;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	
+}
+
+.redes-sociales h2{
+	padding-bottom: 20px;
+	color: white;
+}
+
+.img-footer{
+	margin-right:5px;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.autor{
+	width: 1300px;
+	margin: auto;
+	border: 1px solid white;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-top: 20px;
+	color: white;
+}
+
+
+
+
+.container {
+    width: 95%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+
+.cajita{
+	background-color: #1EAE96;
+	width: 94%;
+	height: 50px;
+	margin-right: 30px;
+	margin-left: 30px;
+border-bottom-right-radius: 3%;
+border-bottom-left-radius: 3%;
+}
+
+.cajita h1{
+	text-align: center;
+	padding-top: 12px;
+	font-size:20px;
+	color: black;
+	font-family: sans-serif;
+}
+
+
+
+.noti {
+
+	position: absolute;
+	display: inline-table;
+	width: 281px;
+	height: 400px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.imagenoti{
+	width: 240px;
+	height: 200px;
+	padding-bottom: 20px;
+	
+}
+
+
+
+

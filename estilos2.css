@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+main{
+	width: 55%;
+	height: 55%;
+	margin: auto;
+}
+
+
+body{
+	background-color: #aa2;
+}
+
+
+article{
+	background-color: white;
+}
+.contenido{
+	padding-left: 100px;
+	background-color:white;
+	padding-top: 10px;
+	padding-bottom:10px;
+	font-size: 19px;
+	text-align: justify-all;
+}
+
+.imagen{
+	text-align: center;
+	background-color: black;
+	margin:0;
+	padding: 0;
+}
+
+
+.formulario{
+	padding: 20px;
+}
